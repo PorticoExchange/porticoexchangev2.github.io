@@ -1,0 +1,32 @@
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+[class^='i-icon-'] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.i-icon-btc {
+  background-image: url('/static/icon/btc.png');
+}
+
+.i-icon-usdt {
+  background-image: url('/static/icon/usdt.png');
+}
