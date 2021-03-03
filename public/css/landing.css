@@ -14,6 +14,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -43,7 +47,7 @@ ul {
 }
 
 .jumbotron .slogan {
-  max-width: 480px;
+  max-width: 550px;
   margin: auto;
   font-size: 33px;
   font-weight: 600;
@@ -164,8 +168,8 @@ ul {
 .contact-us .fa {
   background-color: white;
   color: #462a82;
-  font-size: 24px;
-  margin: 5px;
+  font-size: 30px;
+  margin: 8px;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -173,6 +177,11 @@ ul {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: .2s;
+}
+
+.contact-us .fa:hover {
+  transform: scale(1.1);
 }
 
 .contact-us .about-us {
