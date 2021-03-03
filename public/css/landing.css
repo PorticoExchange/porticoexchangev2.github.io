@@ -36,7 +36,19 @@ a {
 }
 
 .jumbotron .logo {
+  display: inline-block;
   font-size: 50px;
+  background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.jumbotron .fa-btc {
   background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
   background-size: 100%;
   background-repeat: repeat;
@@ -94,6 +106,7 @@ a {
   font-weight: 700;
   color: #808a9b;
   text-align: center;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
