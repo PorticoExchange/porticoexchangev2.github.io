@@ -35,7 +35,12 @@ a {
   padding-bottom: 200px;
 }
 
-.jumbotron .logo {
+.logo {
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+/* .jumbotron .logo {
   display: inline-block;
   font-size: 50px;
   background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
@@ -56,7 +61,7 @@ a {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-}
+} */
 
 .jumbotron .slogan {
   max-width: 550px;
