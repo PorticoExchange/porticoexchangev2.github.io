@@ -1,81 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How Bitcoin Automatic Investment (BAI) works</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/landing.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How Bitcoin Automatic Investment (BAI) works</title>
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/landing.css">
-</head>
+  <body class="landing-page">
+    <section class="nav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body class="landing-page">
-  <section class="jumbotron">
-    <div class="container">
-      <img class="logo" src="./img/logo.png" alt="logo" />
-      <!-- <div class="logo">
+        <div class="collapse navbar-collapse bg-dar" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#concepts">Concepts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#roadmap">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Bitcoin Automatic Investment  light paper (draft).pdf">Lite paper</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="jumbotron">
+      <div class="container">
+        <img class="logo" src="./img/logo.png" alt="logo" />
+        <!-- <div class="logo">
         {<i class="fa fa-btc"></i>}
       </div> -->
-      <div class="text-center">
-        <h1 class="slogan">Bitcoin Automatic Investment (BAI)</h1>
-        <p class="subtitle">The Easiest Way to Hodl Bitcoin.</p>
-        <div class="start-btn">start</div>
+        <div class="text-center">
+          <h1 class="slogan">Bitcoin Automatic Investment (BAI)</h1>
+          <p class="subtitle">The Easiest Way to Hodl Bitcoin.</p>
+          <div class="start-btn" onclick="alert('Devs are working hard on this still... ;-) be patient')">Start</div>
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="income">
-    <div class="container">
-      <img class="trend" src="./img/trend.png" alt="trend" />
-    </div>
-  </section>
-  <section class="steps">
-    <div class="container">
-      <h2 class="subtitle">How BAI works</h2>
-      <ul>
-        <li class="active">Bitcoin Automatic Investment (BAI) is the first truly decentralized bitcoin automatic
-          investment product. You can set up automatic purchases of bitcoin to occur every day, week, or month (Deposit
-          stable coins and you will get ERC-20 Bitcoin).</li>
-        <li>If you would hodl your own assets, if you would control your own private key in your wallet, you must not
-          miss our product.</li>
-        <li>
-          Simple 2 steps to make your bitcoin automatic investment plan: <br>
-          Step1 - deposit stable coins (open source and verified smart contracts) <br>
-          Step2 - setup investment cycle (daily, weekly or monthly)
-        </li>
-        <li>That’s all. You can withdraw your assets at any time.</li>
-      </ul>
-    </div>
-  </section>
-  <section class="advantage">
-    <div class="container">
-      <h2 class="subtitle">Advantages</h2>
-      <ul>
-        <li>
-          <img src="./img/security.svg" alt="security">
-          Security
-        </li>
-        <li>
-          <img src="./img/fast_loading.svg" alt="fast_loading">
-          Faster
-        </li>
-        <li>
-          <img src="./img/artificial_intelligence.svg" alt="fast_loading">
-          Intelligent
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="contact-us">
-    <div class="container">
-      <div class="icons text-center">
-        <a href="https://twitter.com/bainetwork" target="_blank" class="fa fa-twitter" title="Twitter: @bainetwork"></a>
-        <a href="https://t.me/bainetwork" target="_blank" class="fa fa-telegram" title="Telegram: @bainetwork"></a>
-        <a href="https://medium.com/bainetwork" target="_blank" class="fa fa-medium" title="Medium: @bainetwork"></a>
+    </section>
+    <section class="income">
+      <div class="container">
+        <img class="trend" src="./img/trend.png" alt="trend" />
       </div>
-      <div class="about-us">About us</div>
-    </div>
-  </section>
-</body>
-
+    </section>
+    <section class="steps">
+      <div class="container">
+        <h2 class="subtitle">How BAI works</h2>
+        <ul>
+          <li class="active">
+            Bitcoin Automatic Investment (BAI) is the first truly decentralized bitcoin automatic investment product. You can set up automatic purchases of bitcoin to occur every day, week, or month
+            (Deposit stable coins and you will get ERC-20 Bitcoin).
+          </li>
+          <li>If you would hodl your own assets, if you would control your own private key in your wallet, you must not miss our product.</li>
+          <li>
+            Simple 2 steps to make your bitcoin automatic investment plan: <br />
+            Step1 - deposit stable coins (open source and verified smart contracts) <br />
+            Step2 - setup investment cycle (daily, weekly or monthly)
+          </li>
+          <li>That’s all. You can withdraw your assets at any time.</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <a name="concepts"></a>
+      <div class="container">
+        <h2 class="subtitle text-center">Workflow</h2>
+        <div class="d-flex justify-content-center">
+          <img class="graph" onclick="window.open('./img/Bitcoin Automatic Investment v2.svg');" src="./img/Bitcoin Automatic Investment v2.svg" />
+        </div>
+      </div>
+    </section>
+    <section class="advantage">
+      <div class="container">
+        <h2 class="subtitle">Advantages</h2>
+        <ul>
+          <li>
+            <img src="./img/security.svg" alt="security" />
+            Security
+          </li>
+          <li>
+            <img src="./img/fast_loading.svg" alt="fast_loading" />
+            Faster
+          </li>
+          <li>
+            <img src="./img/artificial_intelligence.svg" alt="fast_loading" />
+            Intelligent
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <a name="roadmap"></a>
+        <h2 class="subtitle">Roadmap</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-timeline4">
+                <div class="timeline">
+                  <a class="timeline-content">
+                    <span class="year">22-Q1</span>
+                    <div class="inner-content">
+                      <h3 class="title">Phase 4</h3>
+                      <p class="description">
+                        Privacy and security are the main concerns here, with zero-knowledge-proof solutions, BAI will keep your investment and earnings only to yourself.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a class="timeline-content">
+                    <span class="year">21-Q4</span>
+                    <div class="inner-content">
+                      <h3 class="title">Phase 3</h3>
+                      <p class="description">
+                        We are not satisfying giving you ERC20-like BTC, BAI will be on cross-chain solution and provide you the real BTC instead.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a class="timeline-content">
+                    <span class="year">21-Q3</span>
+                    <div class="inner-content">
+                      <h3 class="title">Phase 2</h3>
+                      <p class="description">
+                        BAI will become available on various Layer 2 solutions, providing the same function with much lower gas fee.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a class="timeline-content">
+                    <span class="year">21-Q2</span>
+                    <div class="inner-content">
+                      <h3 class="title">Phase 1</h3>
+                      <p class="description">
+                        Version 1 will become usable base on Ethereum and WBTC like, including dApp, smart contracts and Layer 2 research.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="icons text-center">
+          <a href="https://twitter.com/bainetwork" target="_blank" class="fa fa-twitter" title="Twitter: @bainetwork"></a>
+          <a href="https://t.me/bainetwork" target="_blank" class="fa fa-telegram" title="Telegram: @bainetwork"></a>
+          <a href="https://medium.com/bainetwork" target="_blank" class="fa fa-medium" title="Medium: @bainetwork"></a>
+          <a href="https://github.com/bainetwork" target="_blank" class="fa fa-github" title="Github: @bainetwork"></a>
+        </div>
+        <div class="about-us">About us</div>
+      </div>
+    </section>
+  </body>
 </html>
