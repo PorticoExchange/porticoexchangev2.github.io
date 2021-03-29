@@ -16,6 +16,19 @@ section.nav {
   /* top: 200px; */
 }
 
+/* 覆盖 bootstrap */
+.btn-menu:focus {
+  outline: none;
+}
+@media (max-width: 991.98px) {
+  .nav .navbar-fixed-top {
+    z-index: 1;
+  }
+  .nav .navbar-dark .navbar-nav {
+    background-color: rebeccapurple;
+  }
+}
+
 ul {
   padding-left: unset;
   list-style: none;
@@ -34,9 +47,9 @@ a {
   text-align: center;
 }
 
-/* jumbotron */
+/* jumbotron2 */
 
-.jumbotron {
+.jumbotron2 {
   background: linear-gradient(-180deg, rgb(54, 37, 78) 0%, rgba(78, 69, 118, 0) 80%), linear-gradient(-96deg, rgba(237, 35, 135, 1) 0%, rgb(44, 37, 73) 100%);
   color: white;
   padding-bottom: 200px;
@@ -47,7 +60,7 @@ a {
   margin-bottom: 20px;
 }
 
-/* .jumbotron .logo {
+/* .jumbotron2 .logo {
   display: inline-block;
   font-size: 50px;
   background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
@@ -60,7 +73,7 @@ a {
   margin-bottom: 20px;
 }
 
-.jumbotron .fa-btc {
+.jumbotron2 .fa-btc {
   background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
   background-size: 100%;
   background-repeat: repeat;
@@ -70,21 +83,21 @@ a {
   -moz-text-fill-color: transparent;
 } */
 
-.jumbotron .slogan {
+.jumbotron2 .slogan {
   max-width: 550px;
   margin: auto;
   font-size: 33px;
   font-weight: 600;
 }
 
-.jumbotron .subtitle {
+.jumbotron2 .subtitle {
   max-width: 480px;
   margin: 25px auto auto;
   font-size: 14px;
   opacity: 0.7;
 }
 
-.jumbotron .start-btn {
+.jumbotron2 .start-btn {
   background-color: #25b196;
   color: white;
   width: 120px;
@@ -719,6 +732,8 @@ h4 {
 @media only screen and (max-width: 767px) {
   .main-timeline4 {
     overflow: visible;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .main-timeline4:before {
     height: 100%;
