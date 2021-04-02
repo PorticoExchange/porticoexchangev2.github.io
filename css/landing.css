@@ -222,7 +222,8 @@ a {
 	transition: 0.2s;
 }
 
-.contact-us .fa:hover {
+.contact-us .fa:hover,
+.contact-us .fab:hover {
 	transform: scale(1.1);
 }
 
