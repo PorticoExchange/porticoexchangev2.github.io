@@ -52,8 +52,8 @@ a {
 /* jumbotron2 */
 
 .jumbotron2 {
-	background: linear-gradient(-180deg, rgb(54, 37, 78) 0%, rgba(78, 69, 118, 0) 80%), linear-gradient(-96deg, rgba(237, 35, 135, 1) 0%, rgb(44, 37, 73) 100%);
-	color: white;
+	background: linear-gradient(-180deg, rgb(74,193,216) 0%, rgba(74,193,216) 80%), linear-gradient(-96deg, rgba(237, 35, 135, 1) 0%, rgb(74,193,216) 100%);
+	color: blue;
 	padding-bottom: 200px;
 }
 
