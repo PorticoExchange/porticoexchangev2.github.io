@@ -65,7 +65,7 @@ a {
 /* .jumbotron2 .logo {
   display: inline-block;
   font-size: 50px;
-  background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
+  background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #4AC1D8 85.35%);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -76,7 +76,7 @@ a {
 }
 
 .jumbotron2 .fa-btc {
-  background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #14fdfd 85.35%);
+  background: linear-gradient(142.42deg, #feed98 -6.15%, #f6ab88 10.9%, #df5b91 37.05%, #d0a2ff 57.51%, #4AC1D8 85.35%);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -201,7 +201,7 @@ a {
 /* contact-us */
 
 .contact-us {
-	background: linear-gradient(180deg, #000729, #3d4362);
+	background: linear-gradient(180deg, #000729, #4AC1D8);
 	background-size: cover;
 }
 
