@@ -1,4 +1,4 @@
-# auto-invest-wbtc
+# Portico Exchange website
 
 ## Project setup
 ```
